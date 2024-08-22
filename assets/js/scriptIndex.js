@@ -7,7 +7,7 @@ const animal_encrURL = "encriptador1.html";
 const ruso_encodeURL = "encriptador2.html";
 
 // Añade eventos de clic a los botones
-animal_encr.addEventListener("click", () => {
+an_encode.addEventListener("click", () => {
     window.location.href = animal_encrURL;
 });
 
