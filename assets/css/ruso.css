@@ -6,7 +6,7 @@
   }
   
   body {
-    background-image: url(../img/fondoruso.png);
+    background-image: url(/assets/img/fondoruso.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
