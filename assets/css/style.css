@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #a3edff;
+}
+
+.nav{
+    text-align: center;
+    font-size: 40px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+.barra-navegacion{
+    list-style: none;
+    margin: 0%;
+    padding: 0%;
+    background-color: #167177;
+    line-height: 20px;
+}
+.item{
+    display: inline-block;
+    padding: 0 20px;
+    padding: 20px;
+}
+.name{
+    text-decoration: none;
+    display: block;
+    color: white;
+}
+.name:hover{
+    color: #b0dbff;
+    font-style:oblique;
+    border-left: 5px solid #ffffff;
+}
+
+.titulos{
+    font-size: 100px;
+    font-family: 'Kreon';
+    border-left: 20px solid#2fb4cc;
+}
+.p{
+    font-size: 28px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.container-inicio{
+    width: 100% auto;
+    background-color: #aadee7;
+    padding-top: 200px;
+    padding-bottom: 100px;
+    text-align: justify;
+    margin: 0 auto;
+}
+.seccion-inicio{
+    padding: 0 200px;
+}
+
+.imagenes-informacionExtra {
+    border: thin #c0c0c0 solid;
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 220px;
+    margin: auto;
+    background-color: #000000;
+    color: #fff;
+    font: italic smaller sans-serif;
+    text-align: center;
+}
+
+.imgW {
+    max-width: 220px;
+    max-height: 150px;
+}
+
+.tarjetas{
+    background-color: #a3edff;
+    padding-top:80px ;
+    padding-bottom: 80px;
+}
+.enlace-encriptadores{
+    margin: 30px 200px  30px 200px;
+    padding: 2px;
+}
+.container-card{
+    width: 100%;
+    display: flex;
+    max-width: 1080px;
+    margin: auto; 
+}
+.title-cards{
+    width: 100%;
+    max-width: 1080px;
+    margin: auto;
+    padding:20px;
+    margin-top: 20px;
+    text-align: justify;
+    color: #000000;
+}
+.card{
+    margin: 5px;
+    border-radius: 6px;
+    overflow: hidden;
+    background:#fff;
+    box-shadow: 0px 1px 10px #00000033;
+    transition: all 400ms ease-out;
+    cursor: default;
+}
+.card:hover{
+    box-shadow: 5px 5px 20px #00000066;
+    transform: translateY(-3%);
+}
+.card img{
+    width: 100%;
+    height: 210px;
+}
+.card .contenido-card{
+    padding: 15px;
+    text-align: center;
+}
+.card .contenido-card h3{
+    margin-bottom: 15px;
+    color: #000000;
+}
+.card .contenido-card p{
+    line-height: 1.8;
+    color: #6a6a6a;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+.card .contenido-card a{
+    display: inline-block;
+    padding: 10px;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #2fb4cc;
+    border: 1px solid #2fb4cc;
+    border-radius: 4px;
+    transition: all 400ms ease;
+    margin-bottom: 5px;
+}
+.card .contenido-card a:hover{
+    background: #2fb4cc;
+    color: #fff;
+}
+
+
+.abc{
+    margin: 0 200px;
+}
+.container-informacionExtra{
+    background-color: #e6d6d6;
+    padding:100px;
+}
+.borde{
+    background-color: #ffffff;
+    border-top:10px solid #000000;
+    width: 50%; 
+    margin-left: 20%;
+    padding:  60px;
+}
+.parra-Ex{
+    font-size: 20px;
+    text-align: end;
+}
+.lista{
+    text-decoration: none;
+    color: #083446;
+    font-size: 30px;
+}
+.lista:hover{
+    color: white;
+    background-color: #eebcbc;
+    padding: 0 40px 2px 2px;
+    border-left: 6px solid black;
+}
+
+.container-CONTACTO{
+    background-color: #1b1b1b;
+    color: white;
+    width: 100% auto;
+    max-width: 100%;
+    padding: 20vh;
+    text-align: end;
+}
+.titulo-contacto{
+    font-size: 100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.contacto{
+    font-size: 30px;
+}

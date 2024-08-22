@@ -1,0 +1,139 @@
+body{
+    background-image: url(../img/fondoanimales.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: #cb171733;
+}
+
+h1 {
+    color:   #000000  ;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.container{
+    display: flex;
+    margin-bottom: 20px;
+    margin-left: 80px;
+    justify-content: center;
+}
+
+label {
+    display: block;
+    font-size: 1.1em;
+    margin-bottom: 10px;
+    color:  #262d24  ;
+}
+input[type="text"] {
+    width: calc(100% - 22px);
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1em;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+button {
+    background-color: #8f573d ;
+    color: #ffffff;
+    width: 250px;
+    border: none;
+    border-radius: 15px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-right: 15px;
+    box-shadow: 15px 5px 15px 15px white;
+}
+button:hover {
+    background-color: #c2aba0 ;
+    color: #333;
+}
+.popup {
+    display: none;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background: #fff;
+    border: 2px solid #4a90e2;
+    border-radius: 50px;
+    box-shadow: 0 4px 8px #00000033;
+    max-width: 500px;
+    width: 100%;
+    text-align: center;
+}
+.popup p {
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 20px;
+}
+#textoSecreto {
+    resize: none;
+    margin-left: 98px;
+    padding: 20px;
+    padding-bottom: 10px;
+    height: 400px;
+    color: darkblue;
+    background: white;
+    background-image: url(imagenes/notexto.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    border-radius: 32px;
+    box-shadow: 0 24px 32px -8px rgba(0, 0, 0, 0.08);
+}
+.contenido{
+    background-color: #c5b9b1c4;
+    text-align: center;
+}
+p{
+    color: red;
+    background-color: #c2aba0;
+}
+textarea{
+    resize: none;
+    margin-left: 98px;
+    padding: 20px;
+    padding-bottom: 120px;
+    height: 400px;
+    color: darkblue;
+    background: white;
+    background-image: url(imagenes/notexto.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    border-radius: 32px;
+    box-shadow: 0 24px 32px -8px rgba(0, 0, 0, 0.08);
+}
+.popup button.copy {
+    background-color: #e94e77;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1em;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.popup button.copy:hover {
+    background-color: #d43f63;
+}
+.popup button.close {
+    background-color: #4a90e2;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1em;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.popup button.close:hover {
+    background-color: #357abd;
+}
+.popup.visible {
+    display: block;
+}

@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  body {
+    background-image: url(../img/fondoruso.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: #8d846b ;
+    color: #ecf0f1;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+  }
+  
+  header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    color: #e74c3c;
+    text-shadow: 2px 2px #c0392b;
+  }
+  
+  .container {
+    background-color: #8d846b;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+  }
+  
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    margin-bottom: 20px;
+    background-color: #ecf0f1;
+    color: #2c3e50;
+    resize: none;
+  }
+  
+  .contenido p {
+    font-size: 0.9rem;
+    margin-bottom: 15px;
+  }
+  
+  form {
+    margin-bottom: 20px;
+  }
+  
+  input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    background-color: #ecf0f1;
+    color: #2c3e50;
+  }
+  
+  .grupoBotones {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  button {
+    background-color: #e74c3c;
+    color: #ecf0f1;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #c0392b;
+  }
+  
+  .contenedorModal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+  
+  .modal {
+    background-color: #34495e;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    max-width: 400px;
+    width: 90%;
+  }
+  
+  #cerrar {
+    float: right;
+    cursor: pointer;
+    font-size: 1.2rem;
+  }
+  
+  #textoResultado {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    background-color: #ecf0f1;
+    color: #2c3e50;
+    resize: none;
+  }
+  
+  #botonCopiar {
+    background-color: #3498db;
+    color: #ecf0f1;
+  }
+  
+  #botonCopiar:hover {
+    background-color: #2980b9;
+  }
+  
+  .oculto {
+    display: none;
+  }
+  
+  .cerrado {
+    display: none;
+  }
+  
+  .abierto {
+    display: flex;
+  }
